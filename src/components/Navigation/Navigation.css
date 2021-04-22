@@ -1,0 +1,65 @@
+.menu {
+  margin-top: 120px;
+  text-align: center;
+  display: grid;
+}
+.menu li {
+  margin-bottom: 25px;
+}
+.menu a {
+  position: relative;
+  color: var(--secondary-bg);
+  transition: ease-in-out 0.3s;
+}
+.menu svg {
+  transition: ease-in-out 0.3s;
+}
+.menu li a svg {
+  transform: scale(1.5);
+}
+.menu a svg:hover {
+  transform: scale(1);
+}
+.menu a::before {
+  content: attr(data-back);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  pointer-events: none;
+}
+.menu a:hover::before {
+  opacity: 1;
+  transform: translateY(50%) rotateX(45deg);
+}
+
+/* .link {
+  border: 1px solid black;
+} */
+/* social */
+.social {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.social i {
+  transform: scale(1.2);
+  margin: 5px;
+}
+.social i a {
+  color: var(--text);
+  transition: ease-in-out 0.3s;
+}
+.social i a:hover {
+  color: var(--primary-bg);
+}
+.social svg {
+  transition: ease-in-out 0.3s;
+}
+.social svg:hover {
+  transform: scale(1.25);
+}

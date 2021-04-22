@@ -1,0 +1,22 @@
+.aboutme {
+  width: 70%;
+  /* margin: 40px 0 0 50px; */
+  /* opacity: 0.7; */
+}
+/* .aboutme p {
+  margin: 20px 0 20px 0;
+  font-size: 0.6rem;
+  line-height: 1.5;
+  color: black;
+} */
+
+.right {
+  /* height: 100%; */
+  display: flex;
+  /* background-color: red; */
+}
+.right img {
+  /* display: flex; */
+  width: 90%;
+  margin: auto;
+}

@@ -1,0 +1,34 @@
+main {
+  width: 100%;
+  height: 100vh;
+  background: var(--accent-clr);
+}
+.purple {
+  width: calc(100% - 200px);
+  height: calc(100% - 200px);
+  background: var(--primary-bg);
+}
+.section {
+  width: calc(100% - 150px);
+  height: calc(100% - 140px);
+  background: var(--secondary-bg);
+  position: absolute;
+  top: 100px;
+  right: 0;
+  box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.192);
+  /* overflow: hidden; */
+}
+button {
+  padding: 20px 60px;
+  background: var(--primary-bg);
+  color: var(--secondary-bg);
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  z-index: 100;
+}
